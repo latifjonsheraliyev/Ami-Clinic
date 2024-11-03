@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap&Raleway:wght@500&display=swap&Inter:wght@600&display=swap"
+    rel="stylesheet">
+  <title>AMI CLINIC</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="reset/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon-AMICLINIC.svg">
+  <script src="js/min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="inner--logo">
+            <a class="logo" href="#">
+              <img class="logo__img" src="images/Logotype.png" alt="#">
+            </a>
+            <div class="logo__line"></div>
+            <div class="logo__content">
+              <p class="logo__text">Заботливая стоматология, которую вы полюбите.</p>
+            </div>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__menu--list">
+              <li onclick="headerDropdown()" class="menu__list--item">
+                <a class="menu__list--link menu__list--link1" href="#">Услуги
+                  <span class="menu__list--link-arrow">
+                    <img class="arrow__img" src="images/menu-arrow.svg" alt="">
+                  </span>
+                </a>
+              </li>
+              <li onclick="headerDropdown2()" class="menu__list--item">
+                <a class="menu__list--link menu__list--link2" href="#">О клинике
+                  <span class="menu__list--link-arrow">
+                    <img class="arrow__img" src="images/menu-arrow.svg" alt="">
+                  </span>
+                </a>
+              </li>
+              <li class="menu__list--item menu__list--link-ref">
+                <a class="menu__list--link" href="#">Отзывы</a>
+                <span class="ref__btn header__ref--btn">
+                  <a class="ref__btn--link" href="#">157</a>
+                </span>
+              </li>
+              <li class="menu__list--item">
+                <a class="menu__list--link" href="#">Акции, рассрочки</a>
+              </li>
+              <li class="menu__list--item">
+                <a class="menu__list--link" href="#">Статьи</a>
+              </li>
+              <li class="menu__list--item">
+                <a class="menu__list--link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <div id="headerDropdown" class="header__dropdown">
+              <a class="header__dropdown--btn" href="">услуги1</a>
+              <a class="header__dropdown--btn" href="">услуги2</a>
+              <a class="header__dropdown--btn" href="">услуги3</a>
+              <a class="header__dropdown--btn" href="">услуги4</a>
+            </div>
+            <div id="headerDropdown2" class="header__dropdown2">
+              <a class="header__dropdown--btn" href="">о клинике1</a>
+              <a class="header__dropdown--btn" href="">о клинике2</a>
+              <a class="header__dropdown--btn" href="">о клинике3</a>
+              <a class="header__dropdown--btn" href="">о клинике4</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- верхний слайдер -->
+
+      <div class="main__slider--top">
+        <div class="container">
+          <div class="slider__content">
+            <div class="slider__content--title">
+              <div class="slider__content--title-text">
+                <p class="slider__text--top">Стоматология</p>
+                <h1 class="slider__title">AMICLINIC</h1>
+                <p class="slider__text--bottom">Заботливая стоматология, которую вы полюбите!</p>
+              </div>
+              <div class="slider__content--title-btn">
+                <a class="buttons slider__record--btn" href="">Запись на первый приём</a>
+                <a class="buttons slider__price--btn" href="">Узнать стоимость WhatsApp</a>
+              </div>
+              <div class="slider__content--title-address">
+                <div class="form__worktime form__worktime--slider">
+                  <img class="form__worktime--img" src="images/worktime.png" alt="график работы">
+                  <p class="form__worktime--text">Пн-Вс 9:00-21:00</p>
+                </div>
+                <div class="form__address">
+                  <a class="form__address__link" href="#">
+                    <img class="form__address--img" src="images/Location.png" alt="адрес">
+                    <p class="form__address--text">г. Москва, ул. Таганская, д. 26, стр. 1
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__content--feedback">
+              <ul class="slider__feedback">
+                <li class="buttons slider__feedback--list slider__feedback--list-ref">
+                  <a class="slider__feedback--item" href="#">
+                    <img src="images/zoon.svg" alt="zoon">
+                  </a>
+                  <span class="ref__btn slider__ref--btn"><a class="ref__btn--link" href="#">60</a></span>
+                </li>
+                <li class="buttons slider__feedback--list slider__feedback--list-ref">
+                  <a class="slider__feedback--item" href="#">
+                    <img src="images/prodoctorov.svg" alt="продокторов">
+                  </a>
+                  <span class="ref__btn slider__ref--btn"><a class="ref__btn--link" href="#">34</a></span>
+                </li>
+                <li class="buttons slider__feedback--list slider__feedback--list-ref">
+                  <a class="slider__feedback--item" href="#">
+                    <img src="images/otzovik.svg" alt="отзовик">
+                  </a>
+                  <span class="ref__btn slider__ref--btn"><a class="ref__btn--link" href="#">4</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- сам слайдер -->
+
+          <div class="slider__top">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(images/main-slider-top1.png);"></div>
+                <div class="swiper-slide" style="background-image: url(images/main-slider-top2.png);"></div>
+                <div class="swiper-slide" style="background-image: url(images/main-slider-top3.png);"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- карточки -->
+
+      <div class="main__card--rec">
+        <div class="container">
+          <div class="card__rec">
+            <div class="card__rec--item" style="background-image: url(images/card-1.jpg);">
+              <div class="card__rec--content">
+                <h3 class="card__rec--title">All-on-4 / Имплантация</h3>
+                <p class="card__rec--text">Полное восстановление зубов за 1 день</p>
+                <a class="buttons card__rec--btn" href="">Узнать подробнее</a>
+              </div>
+            </div>
+            <div class="card__rec--item" style="background-image: url(images/card-2.jpg);">
+              <div class="card__rec--content">
+                <h3 class="card__rec--title">Лечение зубов</h3>
+                <p class="card__rec--text">Терапия</p>
+                <a class="buttons card__rec--btn" href="">Узнать подробнее</a>
+              </div>
+            </div>
+            <div class="card__rec--item" style="background-image: url(images/card-3.jpg);">
+              <div class="card__rec--content">
+                <h3 class="card__rec--title">Выравнивание зубов</h3>
+                <p class="card__rec--text">Ортодонтия</p>
+                <a class="buttons card__rec--btn" href="">Узнать подробнее</a>
+              </div>
+            </div>
+            <div class="card__rec--item" style="background-image: url(images/card-4.jpg);">
+              <div class="card__rec--content">
+                <h3 class="card__rec--title">Эстетика/вениры</h3>
+                <p class="card__rec--text">Ортопедия</p>
+                <a class="buttons card__rec--btn" href="">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Преимущества -->
+
+      <div class="main__advantages">
+        <div class="container">
+          <div class="advantages">
+            <div class="advantages__item">
+              <p class="advantages__item--title">Лечение у специалистов <br>
+                с 20-ти летнем опытом.</p>
+              <p class="advantages__item--text">500+ отзывов на независимых ресурсах<br> а так же видео отзывы и отзывы
+                с результатами у нас на сайте.</p>
+              <img class="advantages__item--img" src="images/advantages-1.png" alt="кубок">
+            </div>
+            <div class="advantages__item">
+              <p class="advantages__item--title">Оптимальное решение <br>
+                под ваш бюджет</p>
+              <p class="advantages__item--text">Озвученная на приёме стоимость окончательная. Вам не придётся
+                доплачивать ни за какие доп.услуги <br> или материалы в процессе</p>
+              <img class="advantages__item--img" src="images/advantages-2.png" alt="синий рубль">
+            </div>
+            <div class="advantages__item">
+              <p class="advantages__item--title">Вы полностью контролируете процесс</p>
+              <p class="advantages__item--text">Личный куратор на связи 24/7: отвечает на ваши вопросы понятным языком и
+                «ведет за руку» по плану лечения.</p>
+              <img class="advantages__item--img" src="images/advantages-3.png" alt="планшет для записей">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- расчет -->
+
+      <div class="main__calculation">
+        <div class="container">
+          <div class="calculation">
+            <h3 class="calculation__title">Рассчитайте стоимость лечения своих зубов</h3>
+            <div class="calculation__content">
+              <div class="calculation__card">
+                <div class="calculation__card--curator">
+                  <img class="card__curator--img" src="images/margarita.jpg" alt=" фото куратора лечения">
+                  <p class="card__curator--name">Маргарита</p>
+                  <p class="card__curator--text">Куратор лечения</p>
+                </div>
+                <p class="calculation__card--text">После прохождения сориентирует <br>
+                  по стоимости и ответит на все вопросы.</p>
+                <p class="calculation__card--title">Ответьте на 5 вопросов и получите:</p>
+                <ul class="calculation__card--present">
+                  <li class="calculation__card--item">
+                    <img class="calculation__card--item-img" src="images/present.png" alt="значок подарка">Бесплатную
+                    консультацию
+                    от <u>стоматолога-кандидата наук</u>
+                  </li>
+                  <li class="calculation__card--item">
+                    <img class="calculation__card--item-img" src="images/present.png" alt="значок подарка">3 варианта
+                    стоимости
+                  </li>
+                  <li class="calculation__card--item">
+                    <img class="calculation__card--item-img" src="images/present.png" alt="значок подарка">Сюрприз от
+                    стоматологии
+                  </li>
+                </ul>
+              </div>
+              <div class="calculation__form">
+                <h3 class="calculation__form--title">Сколько зубов нуждаются в лечении?</h3>
+                <div class="calculation__form--opt">
+                  <button class="calculation__form--opt-btn">1</button>
+                  <button class="calculation__form--opt-btn calculation__form--opt-btn-active">2</button>
+                  <button class="calculation__form--opt-btn">3</button>
+                  <button class="calculation__form--opt-btn">4 и более</button>
+                  <button class="calculation__form--opt-btn calculation__form--opt-btn-span2">Точно не знаю</button>
+                </div>
+                <div class="calculation__form--step">
+                  <div class="step__progressbar">
+                    <p class="step__progressbar--text">3 из 5</p>
+                    <progress id="step__progressbar--line" class="step__progressbar--line" value="0"
+                      max="100"></progress>
+                  </div>
+                  <div class="step__btn">
+                    <button class="step__btn--click step__btn--back">Назад</button>
+                    <button class="step__btn--click step__btn--next">Далее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- шеф -->
+
+      <div class="main__chief">
+        <div class="container">
+          <div class="main__chief--inner">
+            <div class="chief__inner--content">
+              <h2 class="chief__inner--content-title">Ami Clinic создана с
+                <span class="text__blue">любовью</span>
+              </h2>
+              <p class="chief__inner--content-text">В 2016 году я привез технологию All-on-4 в Россию,<br>
+                сделав ставку на инновацию. Мне говорили: “Ничего не получится!”
+                “Технология не подходит для российских реалий”<br>
+                Но у меня была вера и твердое убеждение:<br>
+                All-on-4 — это шанс получить новые зубы.<br>
+                Как свои, только еще лучше.</p>
+              <p class="chief__inner--content-text">Я понимаю, насколько сейчас трудно выбрать стоматологию.<br>
+                На рынке сотни предложений “Зубы за 1 день”.<br>
+                Но мы видим огромное количество ошибок — когда присылают слепки, снимки, непроверенные окклюзии. Ведь
+                еще 5 лет назад 9
+                из 10 врачей отрицали саму возможность такой операции.</p>
+              <div class="chief__inner--content-info">
+                <div class="chief__info--item">
+                  <h5 class="chief__info--title">с 2016г</h5>
+                  <p class="chief__info--text">Работаем по технологии All-on-4</p>
+                </div>
+                <div class="chief__info--item">
+                  <h5 class="chief__info--title">35 000+</h5>
+                  <p class="chief__info--text">Установленных имплантов</p>
+                </div>
+                <div class="chief__info--item">
+                  <h5 class="chief__info--title">6000+</h5>
+                  <p class="chief__info--text">Восстановлено челюстей</p>
+                </div>
+              </div>
+            </div>
+            <img class="chief__inner--img" src="images/chief.png" alt="главврач">
+          </div>
+        </div>
+      </div>
+
+      <!-- врачи -->
+
+      <div class="main__doctors">
+        <div class="container">
+          <div class="main__doctors--inner">
+            <h2 class="doctors__title">Ami Команда</h2>
+            <p class="doctors__text">Познакомьтесь с теми, кто вложит высокий стандарт Ami Clinic<br>
+              <span class="text__blue">в вашу новую улыбку</span>
+            </p>
+            <div class="doctors__tabs">
+              <button class="buttons doctors__tabs--btn doctors__tabs--btn-active">Хирурги</button>
+              <button class="buttons doctors__tabs--btn">Ортопеды</button>
+              <button class="buttons doctors__tabs--btn">Техники</button>
+              <button class="buttons doctors__tabs--btn">Терапевты</button>
+              <button class="buttons doctors__tabs--btn">Ассистенты</button>
+              <button class="buttons doctors__tabs--btn">Кураторы</button>
+            </div>
+            <div class="doctors__cards">
+              <div class="doctor__card">
+                <img class="doctor__card--img" src="images/popov.png" alt="фото врача">
+                <div class="doctor__card--info">
+                  <p class="doctor__card--name">Попов Константин Юрьевич</p>
+                  <p class="doctor__card--post">Челюстно-лицевой хирург, стоматолог-хирург</p>
+                  <p class="doctor__card--exp">Стаж: <span class="bold__text">10 лет</span></p>
+                </div>
+                <a class="buttons doctor__card--link-btn" href="">Записаться на приём</a>
+                <a class="doctor__card--link" href="#">Подробнее о враче</a>
+              </div>
+              <div class="doctor__card">
+                <img class="doctor__card--img" src="images/dremalov.png" alt="фото врача">
+                <div class="doctor__card--info">
+                  <p class="doctor__card--name">Дремалов Борис Михайлович</p>
+                  <p class="doctor__card--post">Хирург-ортопед высшей категории</p>
+                  <p class="doctor__card--exp">Стаж: <span class="bold__text">15 лет, кандидат медицинских наук</span>
+                  </p>
+                </div>
+                <a class="buttons doctor__card--link-btn" href="">Записаться на приём</a>
+                <a class="doctor__card--link" href="#">Подробнее о враче</a>
+              </div>
+              <div class="doctor__card">
+                <img class="doctor__card--img" src="images/gadjiev.png" alt="фото врача">
+                <div class="doctor__card--info">
+                  <p class="doctor__card--name">Гаджиев Юсуп Исламович</p>
+                  <p class="doctor__card--post">Хирург-ортопед высшей категории</p>
+                  <p class="doctor__card--exp">Стаж: <span class="bold__text">15 лет, кандидат медицинских наук</span>
+                  </p>
+                </div>
+                <a class="buttons doctor__card--link-btn" href="">Записаться на приём</a>
+                <a class="doctor__card--link" href="#">Подробнее о враче</a>
+              </div>
+            </div>
+            <div class="pages">
+              <p class="pages__number">1 из 3</p>
+              <div class="pages__btn">
+                <button class="step__btn--click pages__btn--back">Назад</button>
+                <button class="step__btn--click pages__btn--next">Далее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- фотки -->
+
+      <div class="main__picture">
+        <div class="container">
+          <div class="main__picture--inner">
+            <h2 class="main__picture--title">
+              <span class="text__blue">Премиальный уровень комфорта</span> на 350 м²
+            </h2>
+            <div class="main__picture--album">
+              <img class="main__picture--img" src="images/picture-1.jpg" alt="фото помещений клиники">
+              <img class="main__picture--img" src="images/picture-2.jpg" alt="фото помещений клиники">
+              <img class="main__picture--img" src="images/picture-3.jpg" alt="фото помещений клиники">
+              <img class="main__picture--img" src="images/picture-4.jpg" alt="фото помещений клиники">
+              <img class="main__picture--img" src="images/picture-5.jpg" alt="фото помещений клиники">
+              <img class="main__picture--img" src="images/picture-6.jpg" alt="фото помещений клиники">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- отзывы, истории -->
+
+      <div class="main__stories">
+        <div class="container">
+          <div class="main__stories--inner">
+            <h2 class="main__stories--title">Даже в тех случаях, где
+              <span class="text__blue">другие клиники бессильны</span>
+            </h2>
+            <p class="main__stories--text">Реальные истории пациентов</p>
+            <div class="main__stories--tabs">
+              <button class="buttons tabs__btn tabs__btn--active">Все</button>
+              <button class="buttons tabs__btn">All-on-4</button>
+              <button class="buttons tabs__btn">Лечение зубов</button>
+              <button class="buttons tabs__btn">Ортодонтия</button>
+              <button class="buttons tabs__btn">Ортопедия</button>
+            </div>
+            <div class="main__stories--content">
+              <div class="stories__content--img" style="background-image: url(images/foto-pacient.jpg);">
+                <a class="buttons circle__blue--btn stories__img--btn" href="">
+                  <img class="img__play stories__img--btn-img" src="images/Play.svg" alt="play">
+                </a>
+                <p class="stories__img--text">Нажмите, чтобы посмотреть отзыв</p>
+              </div>
+              <div class="stories__content--text">
+                <h6 class="stories__text--title">Лечение переодонтида</h6>
+                <ul class="stories__text--list">
+                  <li class="stories__text--list-title">
+                    Врачи
+                  </li>
+                  <li class="stories__text--list-text">
+                    Гаджиев Юсуп Исламович, Гаджиев Юсуп Исламович,<br>
+                    Гаджиев Юсуп Исламович
+                  </li>
+                  <li class="stories__text--list-title">
+                    C чем обратились
+                  </li>
+                  <li class="stories__text--list-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make a type specimen
+                    book.
+                  </li>
+                  <li class="stories__text--list-title">
+                    Что сделали
+                  </li>
+                  <li class="stories__text--list-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make a type specimen
+                    book.
+                  </li>
+                  <li>
+                    <ul class="stories__text--list-item">
+                      <li>
+                        <ul>
+                          <li class="stories__text--list-title">Стоимость</li>
+                          <li class="stories__text--list-text">250 000 руб.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li class="stories__text--list-title">Сроки</li>
+                          <li class="stories__text--list-text">1 день</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="pages">
+              <p class="pages__number">1 из 20</p>
+              <div class="pages__btn">
+                <button class="step__btn--click pages__btn--back">Назад</button>
+                <button class="step__btn--click pages__btn--next">Далее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- запись -->
+
+      <div class="main__record">
+        <div class="container">
+          <div class="main__record--inner">
+            <div class="record__inner--content">
+              <h2 class="record__content--title">
+                <span class="text__blue">Один визит</span> приблизит<br> вас к решению проблемы.
+              </h2>
+              <p class="record__content--subtitle">Запишитесь на комплексный приём чтобы узнать:</p>
+              <ul class="record__content--list ul__marker--blue">
+                <li class="record__content--item">Возможно ли восстановить зубы за 1 день в вашем случае</li>
+                <li class="record__content--item">Какие импланты и метод имплантации подойдут вам 100%</li>
+                <li class="record__content--item">Стоимость имплантации "под ключ" + план лечения</li>
+              </ul>
+              <form class="form__record record__content--form" action="">
+                <div class="form__record--item">
+                  <input class="form__record--number" type="tel" name="phone" placeholder="Введите номер телефона">
+                  <button type="button" class="step__btn--click form__record--btn">Записаться</button>
+                </div>
+              </form>
+              <div class="record__content--present">
+                <div class="record__content--present-1">
+                  <img class="record__present--img" src="images/gift.png" alt="подарок">
+                  <p class="record__present--text">Первый приём<br>
+                    абсолютно бесплатный</p>
+                </div>
+                <div class="record__content--present-1">
+                  <img class="record__present--img" src="images/gift.png" alt="подарок">
+                  <p class="record__present--text">КТ обеих челюстей<br>
+                    в подарок</p>
+                </div>
+              </div>
+            </div>
+            <img class="record__inner--img" src="images/vrach-v-ochkah.png" alt="фото врача в очках">
+          </div>
+        </div>
+      </div>
+
+      <!-- сомнения -->
+
+      <div class="main__dubt">
+        <div class="container">
+          <div class="main__dubt--inner">
+            <h2 class="dubt__inner--title">С чего начать, если
+              <span class="text__blue">есть сомнения?</span>
+            </h2>
+            <div class="dubt__inner--cards">
+              <div class="dubt__card">
+                <div class="dubt__card--content">
+                  <h6 class="dubt__card--content-title">Обсудить вашу ситуацию</h6>
+                  <p class="dubt__card--content-text">Ответим на все вопросы, предложим
+                    варианты лечения, сориентируем<br>
+                    по стоимости.</p>
+                  <a class="buttons dubt__card--content-btn" href="">Получить консультацию</a>
+                </div>
+                <img class="dubt__card--img" src="images/iPhone.png" alt="айфон">
+              </div>
+              <div class="dubt__card">
+                <div class="dubt__card--content">
+                  <h6 class="dubt__card--content-title">Ознакомится с презентацией</h6>
+                  <p class="dubt__card--content-text">Описание всех услуг и цен, чтобы после разговора ознакомится<br>
+                    со всем лично.</p>
+                  <a class="buttons dubt__card--content-btn" href="">Получить презентацию</a>
+                </div>
+                <img class="dubt__card--img dubt__card--img-mac" src="images/Macbook.png" alt="макбук">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- рассрочка -->
+
+      <div class="main__instalment">
+        <div class="container">
+          <div class="instalment__inner">
+            <img class="instalment__inner--img" src="images/woman-1.png" alt="">
+            <div class="instalment__content--text">
+              <h2 class="instalment__inner--title">Новые зубы по цене
+                <span class="text__blue">чашки кофе в день</span>
+              </h2>
+              <p class="instalment__inner--text">В стоматологии Ami Clinic лечение доступно каждому
+                без мнимой экономии!<br>
+                Следите за здоровьем зубов у ведущих специалистов Москвы на самых гибких условиях.</p>
+            </div>
+            <div class="instalment__inner--cards">
+              <div class="instalment__card">
+                <h6 class="instalment__card--title">Рассрочка от Ami Clinic</h6>
+                <ul class="instalment__card--list ul__marker--blue">
+                  <li class="instalment__card--item">6 месяцев</li>
+                  <li class="instalment__card--item">От 300 руб. в день</li>
+                  <li class="instalment__card--item">Оформление на месте</li>
+                </ul>
+                <a class="instalment__card--buttons buttons" href="">Узнать подробнее</a>
+                <img class="instalment__card--logo" src="images/Logotype.png" alt="логотип клиники">
+              </div>
+              <div class="instalment__card">
+                <h6 class="instalment__card--title">Рассрочка от 25 банков-партнеров</h6>
+                <ul class="instalment__card--list ul__marker--blue">
+                  <li class="instalment__card--item">Одобряемость 90% прямо на консультации</li>
+                  <li class="instalment__card--item">Без первоначального взноса до 12 мес.</li>
+                  <li class="instalment__card--item">С первоначальным взносом до 24 мес.</li>
+                </ul>
+                <a class="instalment__card--buttons buttons" href="">Узнать подробнее</a>
+                <img class="instalment__card--logo" src="images/banki-logo.png" alt="логотипы банков">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- хелпер = куратор -->
+
+      <div class="main__helper">
+        <div class="container">
+          <div class="main__helper--inner">
+            <h2 class="helper__inner--title text__blue">Вы окутаны заботой</h2>
+            <p class="helper__inner--text">Куратор лечения - это специалист, который будет сопровождать вас<br> на
+              протяжении всего лечения, оказывая поддержку и
+              руководство.</p>
+            <div class="helper__inner--content">
+              <div class="helper__content--text">
+                <h6 class="helper__text--name">Седовласова Юлия</h6>
+                <p class="helper__text--exp">Стаж:
+                  <span class="bold__text">6 лет</span>
+                </p>
+                <ul class="helper__text--list ul__marker--blue">
+                  <li class="helper__text--item">По-человечески поддержит вас</li>
+                  <li class="helper__text--item">Объяснит то, что не понятно после приема — переведет с медицинского
+                    языка на человеческий.</li>
+                  <li class="helper__text--item">Поможет разобраться с планом лечения</li>
+                  <li class="helper__text--item">Подберет все возможные и невозможные способы оплат</li>
+                  <li class="helper__text--item">Постоянно на связи</li>
+                </ul>
+                <a class="buttons helper__text--btn" href="">Записаться на приём</a>
+              </div>
+              <div class="helper__content--img" style="background-image: url(images/helper-1.png);">
+                <a class="buttons circle__blue--btn helper__img--btn" href="#">
+                  <img class="img__play helper__img--btn-img" src="images/Play.svg" alt="play">
+                </a>
+                <p class="helper__img--text">Смотреть отзыв</p>
+              </div>
+            </div>
+            <div class="pages__btn helper__pages--btn">
+              <button class="step__btn--click pages__btn--back helper__pages--btn-back">Назад</button>
+              <button class="step__btn--click pages__btn--next helper__pages--btn-next">Далее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- аудио отзыв  -->
+
+      <div class="main__audioreview">
+        <div class="container">
+          <div class="audioreview__inner">
+            <h2 class="audioreview__inner--title">
+              <span class="text__blue">Пациенты говорят</span>
+            </h2>
+            <p class="audioreview__inner--text">
+              “Спасибо судьбе, что привела в Ami Clinic”
+            </p>
+            <div class="audioreview__inner--cards">
+              <div class="audioreview__card">
+                <div class="audioreview__card--text">
+                  <h6 class="audioreview__card--text-title">
+                    В другой клинике мне не смогли предложить
+                    <span class="text__blue">одномоментную имплантацию</span>
+                  </h6>
+                  <p class="audioreview__card--text-text">
+                    У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили
+                    мне все зубы верхней
+                    челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими
+                    коронками, которые начали
+                    отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти,
+                    остались одни корни. Я
+                    начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими
+                    коронками, мостами 13
+                    лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у
+                    меня приговор - я
+                    лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...
+                  </p>
+                  <button class="audioreview__card--text-btn">
+                    <img class="audioreview__card--text-img" src="images/menu-arrow.svg" alt="">
+                    Читать полностью
+                  </button>
+                </div>
+                <div class="audioreview__card--audio">
+                  <div class="audioreview__card--audio-img">
+                    <img class="audioreview__card--audio-img-img" src="images/audioreview-1.png" alt="">
+                    <p class="audioreview__card--audio-img-text">Колчина Елизавета</p>
+                    <audio id="audioPlayer" controls src="audio/audio-W.mp3"></audio>
+                  </div>
+                  <button id="audioButton" class="audioreview__card--audio-play">Нажмите, чтобы прослушать
+                    аудио отзыв
+                  </button>
+                </div>
+              </div>
+              <div class="audioreview__card">
+                <div class="audioreview__card--text">
+                  <h6 class="audioreview__card--text-title">
+                    В другой клинике мне не смогли предложить
+                    <span class="text__blue">одномоментную имплантацию</span>
+                  </h6>
+                  <p class="audioreview__card--text-text">
+                    У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили
+                    мне все зубы верхней
+                    челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими
+                    коронками, которые начали
+                    отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти,
+                    остались одни корни. Я
+                    начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими
+                    коронками, мостами 13
+                    лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у
+                    меня приговор - я
+                    лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...
+                  </p>
+                  <button class="audioreview__card--text-btn">
+                    <img class="audioreview__card--text-img" src="images/menu-arrow.svg" alt="">
+                    Читать полностью
+                  </button>
+                </div>
+                <div class="audioreview__card--audio">
+                  <div class="audioreview__card--audio-img">
+                    <img class="audioreview__card--audio-img-img" src="images/audioreview-2.png" alt="">
+                    <p class="audioreview__card--audio-img-text">Селезнёв Сергей</p>
+                    <audio id="audioPlayer1" controls src="audio/audio-M.mp3"></audio>
+                  </div>
+                  <button id="audioButton1" class="audioreview__card--audio-play">Нажмите, чтобы прослушать
+                    аудио отзыв
+                  </button>
+                </div>
+              </div>
+              <div class="pages">
+                <p class="pages__number">2 из 3</p>
+                <div class="pages__btn">
+                  <button class="step__btn--click pages__btn--back">Назад</button>
+                  <button class="step__btn--click pages__btn--next">Далее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- карточки отзывов -->
+
+      <div class="main__feedback">
+        <div class="container">
+          <div class="main__feedback--inner">
+            <h2 class="main__feedback--inner-title">
+              Придя к нам однажды — приходят после всей семьёй
+              <span class="text__blue">всей семьёй</span>
+            </h2>
+            <div class="main__feedback--cards">
+              <ul class="feedback__cards--list">
+                <li class="feedback__card--item">
+                  <a class="buttons feedback__card--link" href="#">
+                    <img src="images/zoon-card.svg" alt="zoon">
+                  </a>
+                  <span class="ref__btn feedback__card--btn feedback__card--btn-zoon"><a class="ref__btn--link"
+                      href="#">60</a></span>
+                </li>
+                <li class="feedback__card--item">
+                  <a class="buttons feedback__card--link" href="#">
+                    <img src="images/prodoctorov-card.svg" alt="prodoctorov">
+                  </a>
+                  <span class="ref__btn feedback__card--btn"><a class="ref__btn--link" href="#">34</a></span>
+                </li>
+                <li class="feedback__card--item">
+                  <a class="buttons feedback__card--link" href="#">
+                    <img src="images/otzovik-card.svg" alt="otzovik">
+                  </a>
+                  <span class="ref__btn feedback__card--btn"><a class="ref__btn--link" href="#">4</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+
+      <div class="main__faq">
+        <div class="container">
+          <div class="main__faq--inner">
+            <div class="main__faq--curator">
+              <img class="main__faq--curator-img" src="images/curator-problem-irina.png"
+                alt="фотография куратора Ирина">
+              <h6 class="main__faq--curator-title">Популярные вопросы</h6>
+              <p class="main__faq--curator-text">Здравствуйте!<br>
+                Меня зовут Ирина, я ваш куратор лечения.<br>
+                Собрала для вас ответы на частые вопросы по All-on-4.<br>
+                По любым другим буду рада проинструктировать вас лично,<br>
+                Время ответа до 10 минут.</p>
+              <a class="buttons main__faq--curator-btn" href="">Задать вопрос WhatsApp</a>
+            </div>
+            <div class="main__faq--problem">
+              <ul class="main__faq--problem-list">
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Правда ли, что имплантация all-on-4 подходит не всем?
+                    </summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Действительно ли можно сразу есть твердую пищу?</summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Если имплант не приживётся (отторгнется)?</summary>
+                    <p class="faq--problem-item-text">loremLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Из чего формируется цена All-on-4?</summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">All-on-4 действительно делается за один день?</summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Требуется ли костная пластика при имплантации на 4-х
+                      имплантах?</summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Чем отличаются импланты разных производителей?</summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+                <li class="main__faq--problem-item">
+                  <details>
+                    <summary class="faq--problem-item-title">Кому противопоказана имплантация по протоколу All-on-4?
+                    </summary>
+                    <p class="faq--problem-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                      make a type specimen
+                      book.</p>
+                  </details>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- блог -->
+
+      <div class="main__blog">
+        <div class="container">
+          <div class="main__blog--inner">
+            <div class="blog__title">
+              <h2 class="blog__title--text">Подробнее об All-on-4 в нашем блоге</h2>
+              <a class="buttons blog__title--btn" href="">Смотреть все</a>
+            </div>
+            <div class="blog__cards">
+              <div class="blog__card">
+                <div class="blog__card--img">
+                  <img class="blog__card--img-img" src="images/blog-1.png" alt="фото">
+                  <a class="buttons blog__card--img-btn" href="">All on 4</a>
+                </div>
+                <h6 class="blog__card--title">Цифровое протезирование зубов: история пациента</h6>
+                <p class="blog__card--text">Каждый пациент мечтает об идеально точном, красивом и качественном
+                  результате.</p>
+                <a class="blog__card--link" href="">
+                  <img class="blog__card--link-img" src="images/menu-arrow.svg" alt="">
+                  <p class="blog__card--link-text">Читать подробнее</p>
+                </a>
+              </div>
+              <div class="blog__card">
+                <div class="blog__card--img">
+                  <img class="blog__card--img-img" src="images/blog-2.png" alt="фото">
+                  <a class="buttons blog__card--img-btn" href="">Лечение зубами</a>
+                </div>
+                <h6 class="blog__card--title">Цифровое протезирование зубов: история пациента</h6>
+                <p class="blog__card--text">Каждый пациент мечтает об идеально точном, красивом и качественном
+                  результате.</p>
+                <a class="blog__card--link" href="">
+                  <img class="blog__card--link-img" src="images/menu-arrow.svg" alt="">
+                  <p class="blog__card--link-text">Читать подробнее</p>
+                </a>
+              </div>
+              <div class="blog__card">
+                <div class="blog__card--img">
+                  <img class="blog__card--img-img" src="images/blog-3.png" alt="фото">
+                  <a class="buttons blog__card--img-btn" href="">Ортодонтия</a>
+                </div>
+                <h6 class="blog__card--title">Цифровое протезирование зубов: история пациента</h6>
+                <p class="blog__card--text">Каждый пациент мечтает об идеально точном, красивом и качественном
+                  результате.</p>
+                <a class="blog__card--link" href="">
+                  <img class="blog__card--link-img" src="images/menu-arrow.svg" alt="">
+                  <p class="blog__card--link-text">Читать подробнее</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__inner--form">
+            <div class="inner--logo">
+              <a class="logo" href="#">
+                <img class="logo__img" src="images/Logotype.png" alt="#">
+              </a>
+              <div class="logo__line"></div>
+              <div class="logo__content">
+                <p class="logo__text">Заботливая стоматология, которую вы полюбите.</p>
+              </div>
+            </div>
+            <form class="form__record" action="">
+              <div class="form__record--item">
+                <input class="form__record--number" type="tel" name="phone" placeholder="Введите номер телефона">
+                <button class="step__btn--click form__record--btn">Записаться</button>
+              </div>
+              <label class="form__record--checkbox">
+                <input type="checkbox" name="agree">
+                <p>Нажимая кнопку вы соглашаетесь с
+                  условиями <u>политики конфиденциальности.</u></p>
+              </label>
+            </form>
+            <div class="form__worktime form__worktime--footer">
+              <img class="form__worktime--img" src="images/worktime.png" alt="график работы">
+              <p class="form__worktime--text">Пн-Вс 9:00-21:00</p>
+            </div>
+            <div class="form__address form__address--address">
+              <a class="form__address__link" href="#">
+                <img class="form__address--img" src="images/Location.png" alt="адрес">
+                <p class="form__address--text">г. Москва, ул. Таганская, д. 26, стр. 1
+                </p>
+              </a>
+            </div>
+            <ul class="form__social">
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/VK.png" alt="вк">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/Ok.png" alt="ок">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__item--link" href="#">
+                  <img src="images/YouTube.png" alt="ютуб">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer__inner--menu">
+
+            <!-- клиника -->
+
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Клиника</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">О нас</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Врачи</a>
+              </li>
+              <li class="footer__menu--item footer__menu--link-ref">
+                <a class="footer__menu--link" href="#">Отзывы</a>
+                <span class="ref__btn footer__ref--btn">
+                  <a class="ref__btn--link" href="#">157</a>
+                </span>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Акции, рассрочка</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Статьи</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Контакты</a>
+              </li>
+            </ul>
+
+            <!-- услуги -->
+
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Услуги</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">All-on-4 / Имплантация</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Лечение зубов / Терапия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Выравнивание зубов / Ортопедия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Эстетика/Ортопедия</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Зуботехническая лаборатория</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Расчёт стоимости онлайн</a>
+              </li>
+            </ul>
+
+            <!-- телефон -->
+
+            <ul class="footer__menu--list">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Телефон</h4>
+              </li>
+              <li class="footer__menu--item footer__phone">
+                <a class="footer__menu--link" href="tel:+781250000000">+7 8125 000 00 00</a>
+              </li>
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Отвечаем онлайн</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Viber</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Telegram</a>
+              </li>
+            </ul>
+
+            <!-- Преимущества -->
+
+            <ul class="footer__menu--list footer__menu--list-bottom">
+              <li class="footer__menu--item">
+                <h4 class="footer__menu--title">Преимущества</h4>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Лечение без боли и стресса</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Собственная зуботехническая лаборатория</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Полное восстановление зубов за 1 день</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Бесплатный первичный прием</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Рассрочка от клиники</a>
+              </li>
+              <li class="footer__menu--item">
+                <a class="footer__menu--link" href="#">Все врачи работают с оптикой — увеличение до 40 крат</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__inner--text">
+          <p class="footer__text--left">
+            Работаем с 2016 г.
+          </p>
+          <p class="footer__text--center">
+            Материалы с сайта защищены законом РФ об авторских и смежных правах. Копирование запрещено. Сайт не является
+            договором
+            оферты
+          </p>
+          <p class="footer__text--right">
+            Политика конфиденциальности
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
